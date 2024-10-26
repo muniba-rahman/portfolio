@@ -24,7 +24,7 @@ export default function Header() {
             <Col md={4} className={classes.iconDiv}>
                     {HEADER_ICONS?.map((e,i)=>{
                         return(
-                            <a href={e?.path} target='_blank' className={classes.icon} key={i}>{e?.icon}</a>
+                            <a href={`${e?.path}`} target='_blank' className={classes.icon} key={i}>{e?.icon}</a>
                           
                         )
                     })}
