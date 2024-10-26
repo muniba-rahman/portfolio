@@ -13,7 +13,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+}
+
+.tab{
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.tab:hover{
+    border-bottom: 2px solid var(--blue-color);
+    padding-block-end: 5px;
+    transition: all linear 0.2s;
+}
+
+.iconDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon{
+    background: var(--blue-color);
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

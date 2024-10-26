@@ -1,5 +1,5 @@
 import { RiGithubLine } from "react-icons/ri";
-
+import { FaLinkedinIn } from "react-icons/fa";
 
 export const HEADER_TAB = [
     {
@@ -26,7 +26,7 @@ export const HEADER_ICONS = [
         path: "https://github.com/muniba-rahman"
     },
     {
-        icon: <RiGithubLine color="var(--white-color)" size={24} />,
-        path: "https://github.com/muniba-rahman"
+        icon: <FaLinkedinIn color="var(--white-color)" size={24} />,
+        path: "https://www.linkedin.com/in/muniba-rahman/"
     },
 ]

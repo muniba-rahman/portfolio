@@ -15,16 +15,17 @@ export default function Header() {
                     {HEADER_TAB?.map((e,i)=>{
                         return(
                             <div key={i}>
-                                <p>{e?.tab}</p>
+                                <p className={classes.tab}>{e?.tab}</p>
                             </div>
                         )
                     })}
                 </div>
             </Col>
-            <Col md={4}>
+            <Col md={4} className={classes.iconDiv}>
                     {HEADER_ICONS?.map((e,i)=>{
                         return(
-                            <a href={e?.path} target='_blank' key={i}>{e?.icon}</a>
+                            <a href={e?.path} target='_blank' className={classes.icon} key={i}>{e?.icon}</a>
+                          
                         )
                     })}
             </Col>
