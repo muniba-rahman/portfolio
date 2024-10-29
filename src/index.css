@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
@@ -17,7 +18,7 @@ code {
   --blue-color: #024CAA;
   --white-color: #fff;
   --black-color: #000;
-  /* --gradient: linear-gradient(135deg, #091057, #024CAA, #fff); */
+  --gray-color: #686D76;
   --gradient: linear-gradient(159deg, rgba(0,51,102,1) 0%, rgba(15,82,186,1) 100%);
 
 }

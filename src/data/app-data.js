@@ -30,3 +30,9 @@ export const HEADER_ICONS = [
         path: "https://www.linkedin.com/in/muniba-rahman/"
     },
 ]
+
+
+export const HOME_CONTENT = {
+    title: "Welcome to my portfolio",
+    para: "Hi, I’m Muniba Rahman, a passionate Computer Systems Engineer dedicated to harnessing technology for innovative solutions. With a strong foundation in programming and a knack for problem-solving, I thrive in dynamic environments where creativity and collaboration lead to impactful outcomes. My goal is to contribute to projects that make a difference and continuously enhance my skills along the way."
+}
