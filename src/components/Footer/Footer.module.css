@@ -1,5 +1,5 @@
 .rowClass{
-    background: var(--primary-color);
+    background: var(--gradient);
     color: var(--white-color);
     width: 100%;
     display: flex;
