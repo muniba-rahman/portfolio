@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from "./Home.module.css";
-import Image from "../../images/home-pic.jpeg";
+import Image from "../../images/Home.webp";
 import { BsArrowRightSquare } from "react-icons/bs";
 import { HOME_CONTENT } from '../../data/app-data';
 

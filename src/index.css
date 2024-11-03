@@ -17,8 +17,10 @@ code {
   --primary-color: #091057;
   --blue-color: #024CAA;
   --white-color: #fff;
+  --orange-color: #FF6600;
   --black-color: #000;
   --gray-color: #686D76;
+  --dark-gray-color: #3C3D37;
   --gradient: linear-gradient(159deg, rgba(0,51,102,1) 0%, rgba(15,82,186,1) 100%);
 
 }
