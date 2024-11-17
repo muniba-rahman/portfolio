@@ -67,10 +67,10 @@ export const HEADER_TAB = [
         tab: "projects",
         path: "/projects"
     },
-    {
-        tab: "contact",
-        path: "/contact"
-    },
+    // {
+    //     tab: "contact",
+    //     path: "/contact"
+    // },
 ];
 
 export const HEADER_ICONS = [
