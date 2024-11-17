@@ -11,36 +11,46 @@ import { FaPhp } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { TbBrandDjango } from "react-icons/tb";
 
+import musiconicImage from '../images/musiconic.jpg';
+import homigo from '../images/homigo.jpg';
+import calculator from '../images/calculator.jpg';
+import weather from '../images/weather-app.jpg';
+import martt from '../images/martt.jpg';
+import taskflow from '../images/taskflow.jpg';
+import game from '../images/game.jpg';
+import fusion from '../images/flavorfusion.jpg';
+import codepad from '../images/codepad.jpg';
+
 export const ICONS = [
     {
-        icon: <BsFiletypeHtml color="var(--orange-color)" size={100} />,
+        icon: <BsFiletypeHtml color="var(--orange-color)" />,
     },
     {
-        icon: <BsFiletypeCss color="var(--blue-color)" size={100} />,
+        icon: <BsFiletypeCss color="var(--blue-color)" />,
     },
     {
-        icon: <SiJavascript color="#F3C623" size={100} />,
+        icon: <SiJavascript color="#F3C623"  />,
     },
     {
-        icon: <FaReact color="#0D92F4" size={100} />,
+        icon: <FaReact color="#0D92F4"  />,
     },
     {
-        icon: <TbBrandNextjs color="var(--black-color)" size={100} />,
+        icon: <TbBrandNextjs color="var(--black-color)"  />,
     },
     {
-        icon: <TbBrandRedux color="#BF2EF0" size={100} />,
+        icon: <TbBrandRedux color="#BF2EF0"  />,
     },
     {
-        icon: <SiPython color="#0D92F4" size={100} />,
+        icon: <SiPython color="#0D92F4" />,
     },
     {
-        icon: <FaPhp color="#295F98" size={100} />,
+        icon: <FaPhp color="#295F98" />,
     },
     {
-        icon: <SiMysql color="#295F98" size={100} />,
+        icon: <SiMysql color="#295F98"  />,
     },
     {
-        icon: <TbBrandDjango color="#06D001" size={100} />,
+        icon: <TbBrandDjango color="#06D001"  />,
     },
 ];
 
@@ -107,3 +117,60 @@ export const ABOUT_CONTENT = [
         para: "I'm continually expanding my technical skills, with a focus on new tools and methodologies such as Python, Django, and Angular. Alongside technical growth, I prioritize soft skills in communication, collaboration, and adaptability, ensuring I bring value in both team-based and independent settings."
     },
 ];
+
+export const PROJECTS = [
+    {
+        image: musiconicImage,
+        title: "Musiconic",
+        demo: "https://musiconic.netlify.app/",
+        tech: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        image: homigo,
+        title: "Homigo",
+        demo: "https://real-state-app-using-react.netlify.app/",
+        tech: ["React.js", "Framer Motion"]
+    },
+    {
+        image: fusion,
+        title: "FlavorFusion",
+        demo: "https://flavorfusion-recipeguide.netlify.app/",
+        tech: ["HTML", "CSS", "JavaScript", "API Integration"]
+    },
+    {
+        image: game,
+        title: "Rock Paper Scissor",
+        demo: "https://rock-paper-scissor-game-webite.netlify.app/",
+        tech: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        image: martt,
+        title: "Martt e-commerce",
+        demo: "https://e-commerce-using-rtk.netlify.app/",
+        tech: ["React.js", "Redux Toolkit", "React Bootstrap"]
+    },
+    {
+        image: taskflow,
+        title: "TaskFlow - Task Manager",
+        demo: "https://taskflow-task-planner-react-tailwind.netlify.app/",
+        tech: ["React.js", "Tailwind CSS", "Vite"]
+    },
+    {
+        image: weather,
+        title: "Weather App - Web Design",
+        demo: "https://weather-app-dynamic.netlify.app/",
+        tech: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        image: calculator,
+        title: "Calculator",
+        demo: "https://simple-scientific-calculator-website.netlify.app/",
+        tech: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        image: codepad,
+        title: "CodePad",
+        demo: "https://code-editor-codepad.netlify.app/",
+        tech: ["HTML", "CSS", "JavaScript"]
+    },
+]

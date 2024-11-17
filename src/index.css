@@ -22,5 +22,6 @@ code {
   --gray-color: #686D76;
   --dark-gray-color: #3C3D37;
   --gradient: linear-gradient(159deg, rgba(0,51,102,1) 0%, rgba(15,82,186,1) 100%);
-
+  --light-purple: #CDC1FF;
+  --dark-purple: #640D5F;
 }

@@ -1,0 +1,21 @@
+.title{
+    margin-block-start: 40px;
+    margin-block-end: 20px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+    background: linear-gradient(
+        to right,
+        #b92b27,#1565C0
+      );
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+}
+
+.projects{
+  margin-block-start: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
