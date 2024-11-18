@@ -25,4 +25,20 @@ code {
   --light-purple: #CDC1FF;
   --dark-purple: #640D5F;
   --card-bg-color: #E5D9F2;
+  --light-blue: #006BFF;
+}
+
+::-webkit-scrollbar {
+  width: 7px; 
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--gradient);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--light-blue); 
+  border-radius: 10px;
 }

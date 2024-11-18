@@ -15,14 +15,14 @@ export default function Home() {
     return (
         <Container>
             <Row>
-                <Col md={6}>
+                <Col md={6} sm={12}>
                     <div className={classes.content}>
                         <h1 className={classes.title}>{data?.title}</h1>
                         <p>{data?.para}</p>
                         <button className={classes.btn} onClick={downloadResume} >View Resume <BsArrowRightSquare color='var(--white-color)' size={20} /></button>
                     </div>
                 </Col>
-                <Col md={6}>
+                <Col md={6} sm={12}>
                     <div className={classes.image}>
                         <img src={Image} alt="..." className={classes.pic} />
                     </div>
