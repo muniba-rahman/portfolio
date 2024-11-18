@@ -123,54 +123,70 @@ export const PROJECTS = [
         image: musiconicImage,
         title: "Musiconic",
         demo: "https://musiconic.netlify.app/",
-        tech: ["HTML", "CSS", "JavaScript"]
+        tech: ["HTML", "CSS", "JavaScript"],
+        code :"https://github.com/muniba-rahman/Music-Player-App",
     },
     {
         image: homigo,
         title: "Homigo",
         demo: "https://real-state-app-using-react.netlify.app/",
-        tech: ["React.js", "Framer Motion"]
+        tech: ["React.js", "Framer Motion"],
+        code :"https://github.com/muniba-rahman/real-state-app",
     },
     {
         image: fusion,
         title: "FlavorFusion",
         demo: "https://flavorfusion-recipeguide.netlify.app/",
-        tech: ["HTML", "CSS", "JavaScript", "API Integration"]
+        tech: ["HTML", "CSS", "JavaScript", "API Integration"],
+        code :"https://github.com/muniba-rahman/FalovorFusion",
     },
     {
         image: game,
         title: "Rock Paper Scissor",
         demo: "https://rock-paper-scissor-game-webite.netlify.app/",
-        tech: ["HTML", "CSS", "JavaScript"]
+        tech: ["HTML", "CSS", "JavaScript"],
+        code: "https://github.com/muniba-rahman/Rock-Paper-Scissor-Game",
     },
     {
         image: martt,
         title: "Martt e-commerce",
         demo: "https://e-commerce-using-rtk.netlify.app/",
-        tech: ["React.js", "Redux Toolkit", "React Bootstrap"]
+        tech: ["React.js", "Redux Toolkit", "React Bootstrap"],
+        code: "https://github.com/muniba-rahman/rtk-e-commerce-website",
     },
     {
         image: taskflow,
         title: "TaskFlow - Task Manager",
         demo: "https://taskflow-task-planner-react-tailwind.netlify.app/",
-        tech: ["React.js", "Tailwind CSS", "Vite"]
+        tech: ["React.js", "Tailwind CSS", "Vite"],
+        code: "https://github.com/muniba-rahman/TaskFlow-ToDo-App",
     },
     {
         image: weather,
         title: "Weather App - Web Design",
         demo: "https://weather-app-dynamic.netlify.app/",
-        tech: ["HTML", "CSS", "JavaScript"]
+        tech: ["HTML", "CSS", "JavaScript"],
+        code :"https://github.com/muniba-rahman/weather-app",
     },
     {
         image: calculator,
         title: "Calculator",
         demo: "https://simple-scientific-calculator-website.netlify.app/",
-        tech: ["HTML", "CSS", "JavaScript"]
+        tech: ["HTML", "CSS", "JavaScript"],
+        code: "https://github.com/muniba-rahman/Calculator-Website",
     },
     {
         image: codepad,
         title: "CodePad",
         demo: "https://code-editor-codepad.netlify.app/",
-        tech: ["HTML", "CSS", "JavaScript"]
+        tech: ["HTML", "CSS", "JavaScript"],
+        code: "https://github.com/muniba-rahman/Code-Editor",
     },
+    // {
+    //     // image: codepad,
+    //     title: "iCode Forum",
+    //     // demo: "https://code-editor-codepad.netlify.app/",
+    //     tech: ["HTML", "CSS", "PHP", "MySQL", "XAMP"],
+    //     code: "https://github.com/muniba-rahman/Code-Editor",
+    // },
 ]

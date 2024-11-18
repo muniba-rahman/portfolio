@@ -1,4 +1,4 @@
-.rowClass{
+/* .rowClass{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,11 +26,12 @@
     border-bottom: 2px solid var(--blue-color);
     padding-block-end: 5px;
     transition: all linear 0.2s;
+    width: max-content;
 }
 
 .iconDiv{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     gap: 20px;
 }
@@ -83,6 +84,93 @@
         padding: 10px;
     }
     .title{
+        font-size: 25px;
+    }
+} */
+
+
+.rowClass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: var(--gradient);
+    color: var(--white-color);
+}
+
+.tabDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.tab {
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.tab:hover {
+    border-bottom: 2px solid var(--blue-color);
+    padding-block-end: 5px;
+    transition: all linear 0.2s;
+}
+
+.iconDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.drawerIcons {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.icon {
+    background: var(--primary-color);
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawerButton {
+    background: transparent;
+    cursor: pointer;
+    display: none;
+    text-align: end;
+}
+
+.drawer {
+    background: var(--gradient) !important;
+    padding: 20px;
+}
+
+.drawerTab {
+    text-transform: capitalize;
+    cursor: pointer;
+    color: var(--white-color);
+}
+
+@media (max-width: 992px) {
+    .drawerButton {
+        display: block;
+    }
+    .tabDiv, .iconDiv {
+        display: none;
+    }
+}
+
+@media (max-width: 430px) {
+    .rowClass {
+        padding: 10px;
+    }
+    .title {
         font-size: 25px;
     }
 }

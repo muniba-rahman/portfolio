@@ -15,6 +15,7 @@ export default function ProjectCard({data}) {
                 })}
             </div>
             <a href={data?.demo} target='_blank' className={classes.anchor}>Show Demo</a>
+            <a href={data?.code} target='_blank' className={classes.anchor}>Show Code</a>
         </div>
     </div>
   )

@@ -24,4 +24,5 @@ code {
   --gradient: linear-gradient(159deg, rgba(0,51,102,1) 0%, rgba(15,82,186,1) 100%);
   --light-purple: #CDC1FF;
   --dark-purple: #640D5F;
+  --card-bg-color: #E5D9F2;
 }

@@ -2,19 +2,21 @@ import React from 'react'
 import classes from "./Projects.module.css";
 import { PROJECTS } from '../../data/app-data';
 import ProjectCard from '../../components/ProjectCard';
-import { Col } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 
 export default function Projects() {
   return (
-    <div className={classes.container}>
-      <h1 className={classes.title}>My Projects</h1>
-      <div className={classes.projects}>
+    <Container>
+      <Row className='my-3 gy-4'>
+        <Col md={12}>
+        <h1 className={classes.title}>My Projects</h1>
+        </Col>
         {PROJECTS?.map((e,i)=>{
-          return(
-            <Col key={i} md={3}><ProjectCard data={e}  /></Col>
-          )
+           return(
+             <Col key={i} lg={4} md={6} sm={12}><ProjectCard data={e}  /></Col>
+           )
         })}
-      </div>
-    </div>
+      </Row>
+    </Container>
   )
 }
